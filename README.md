@@ -4,39 +4,43 @@
 
 *A real-world data analytics case study built with Excel, SQL, Power BI, and Tableau.*
 
-> "I just wanted to buy a Power BI license."
->
-> "That's it."
+> **Built from a real problem.**  
+> **Analyzed with data.**  
+> **Presented with purpose.**
+
+> "I just wanted to buy a Power BI license.  
+> That's it."
 
 ---
 
-## 🚀 Explore the Project
+## 📊 Final Tableau Dashboard
+
+![The Licensing Labyrinth Tableau Dashboard](images/tableau_dashboard_final.png)
+
+---
+
+## 🔗 Explore the Project
 
 🌐 **Live Interactive Tableau Dashboard**  
 https://public.tableau.com/app/profile/ruben.santana4478/viz/TheLicensingLabyrinth-MicrosoftLicensingCaseStudy/Story-LicensingJourney
 
 📄 **Portfolio Report:** `reports/The_Licensing_Labyrinth_Portfolio.pdf`  
-🗄 **SQL Scripts:** `sql/LicensingLabyrinth_Analytics.sql`  
+🗄️ **SQL Scripts:** `sql/LicensingLabyrinth_Analytics.sql`  
 📊 **Power BI File:** `powerbi/The_Licensing_Labyrinth_Dashboard.pbix`  
-📈 **Tableau Workbook:** `tableau/Licensing_Labyrinth_Tableau_Final.twbx`
-
----
-
-## 📊 Dashboard Preview
-
-![The Licensing Labyrinth Dashboard](images/The_Licensing_Labyrinth_Dashboard.png)
+📈 **Tableau Workbook:** `tableau/Licensing_Labyrinth_Tableau_Final.twbx`  
+📁 **Data Source:** `data/the_licensing_labyrinth.xlsx`
 
 ---
 
 ## 🚀 Project Highlights
 
-- ✔ Real-world business problem
+- ✔ Real-world business problem turned into a data analytics case study
 - ✔ Excel → SQL → Power BI → Tableau workflow
-- ✔ Interactive dashboards
-- ✔ Root-cause analysis
-- ✔ Data storytelling
-- ✔ Professional project documentation
-- ✔ Cross-platform analytics case study
+- ✔ Interactive Tableau dashboard published publicly
+- ✔ Power BI dashboard with DAX measures and slicers
+- ✔ SQL analysis for root-cause discovery
+- ✔ Excel dashboard prototype and structured data model
+- ✔ Complete portfolio documentation and repository organization
 
 ---
 
@@ -58,11 +62,11 @@ I had everything Microsoft said I needed:
 
 ...and I still couldn't purchase Power BI Premium Per User, Copilot, Teams Premium, Microsoft Fabric, or several other Microsoft add-ons.
 
-Every attempt ended with some variation of **"Not eligible"** without any explanation.
+Every attempt ended with some version of **"Not eligible"** with no real explanation.
 
-It turns out the real problem wasn't permissions or licensing at all. It was a hidden billing mismatch between **MCA (Microsoft Customer Agreement)** and **Microsoft 365 Commerce**.
+It turns out the actual problem wasn't permissions or basic licensing. It was a hidden billing mismatch between **MCA (Microsoft Customer Agreement)** and **Microsoft 365 Commerce**.
 
-Nothing in the Microsoft Admin Center tells you this.
+Nothing in the Microsoft Admin Center made that obvious.
 
 I didn't discover it by reading documentation.
 
@@ -84,10 +88,10 @@ Despite meeting every documented prerequisite, I couldn't purchase Microsoft's e
 
 The actual blocker was a billing mismatch between:
 
-- MCA Billing
-- Microsoft 365 Commerce Billing
+- **MCA Billing**
+- **Microsoft 365 Commerce Billing**
 
-The Microsoft Admin Center never explained this.
+The Microsoft Admin Center never explained this clearly.
 
 There wasn't a self-service fix.
 
@@ -111,7 +115,7 @@ The only resolution was having Microsoft Support manually convert the billing ac
 
 ---
 
-## 🛠 What I Built
+## 🛠️ What I Built
 
 ### Structured Data Collection
 
@@ -121,82 +125,85 @@ I logged every licensing attempt, including:
 - Category
 - Result
 - Error message
-- Billing account
+- Billing account type
 - Time lost
-- Whether support was contacted
+- Support contacted
 
 ### SQL Analysis
 
-Created analytics queries covering:
+I created analytics queries covering:
 
 - Time lost
 - Failure rates
 - Error frequency
 - Product categories
-- Support escalation trends
+- Support escalation patterns
 - Root-cause analysis
 - Ranking and window functions
 
-### Excel Dashboard
+### Excel Dashboard Prototype
 
-Built an initial dashboard prototype featuring:
-
-- KPI cards
-- Charts
-- Pivot-style analysis
-- Formula-driven metrics
+The first dashboard version was built in Excel using structured tables, formulas, KPIs, and embedded charts.
 
 ### Power BI Dashboard
 
-Created an interactive dashboard featuring:
-
-- 6 KPI cards
-- 4 interactive charts
-- 4 dynamic slicers
-- DAX measures
-- Cross-filtering
+The Power BI version included KPI cards, slicers, DAX measures, and cross-filtering.
 
 ### Tableau Dashboard
 
-Recreated the project in Tableau to demonstrate platform versatility and build an interactive visual story around the same dataset.
+The final Tableau version was published publicly as an interactive dashboard and story walkthrough.
 
 ---
 
-## 📈 Power BI Dashboard
+## 🧭 Interactive Tableau Story
+
+![The Licensing Labyrinth Tableau Story](images/tableau_story_final.png)
+
+The Tableau story walks through the licensing journey step by step, moving from the overview to analytics, root cause, blockers, and recommendations.
+
+---
+
+## 🖥️ Power BI Dashboard
 
 ![Power BI Dashboard](images/The_Licensing_Labyrinth_Dashboard.png)
 
----
-
-## 🗺 Licensing Journey Flowchart
-
-![Licensing Journey Flowchart](images/licensing_labyrinth_journey_flowchart.png)
+The Power BI dashboard was used to develop interactive KPI views, category analysis, frustration tracking, and DAX-based measures before rebuilding the project in Tableau.
 
 ---
 
-## 📊 Excel Prototype
+## 📈 Excel Prototype
 
 ![Excel Dashboard Prototype](images/The_Licensing_Labyrinth_Excel_Shot.png)
 
+The Excel workbook served as the prototype layer for organizing the data, testing calculations, and sketching early dashboard ideas.
+
 ---
 
-## 🔍 Key Findings
+## 🗺️ Licensing Journey Flowchart
+
+![Licensing Journey Flowchart](images/licensing_labyrinth_journey_flowchart.png)
+
+The flowchart maps the full troubleshooting path from the first failed purchase attempt through support escalation and billing conversion.
+
+---
+
+## 🔍 What I Found
 
 ### This wasn't user error.
 
-I met every documented Microsoft requirement and still failed **83%** of the time.
+I met every documented requirement and still failed **83%** of the time.
 
 ### MCA billing accounts block enterprise add-ons.
 
-Power BI Premium Per User, Copilot, Teams Premium, and Microsoft Fabric all became unavailable because of the billing system, not because of licensing eligibility.
+Power BI Premium Per User, Copilot, Teams Premium, and Microsoft Fabric were all unavailable because of the billing system, not because of user eligibility.
 
 ### The Admin Center doesn't explain itself.
 
 "Not eligible" is not an explanation.
 
-There was no clear reason, no useful guidance, and no indication that billing was the real issue.
+There was no clear reason, no guided path, and no obvious indication that billing was the real issue.
 
-### Microsoft Support became the only path forward.
+### Support became the only path forward.
 
 Seven out of twenty-four attempts ended in support escalation.
 
@@ -206,7 +213,7 @@ The final solution required Microsoft to manually convert the billing account.
 
 My frustration peaked at **10/10** right before giving up and contacting support.
 
-Once the billing conversion started, it dropped to **7/10**.
+Once the billing conversion finally began, it dropped to **7/10**.
 
 Turns out frustration has a trend line too.
 
@@ -217,7 +224,7 @@ Turns out frustration has a trend line too.
 - Unify MCA and Microsoft 365 Commerce billing
 - Explain *why* purchases fail
 - Add a self-service billing conversion option
-- Display billing account type prominently inside the Admin Center
+- Display billing account type clearly in the Admin Center
 - Replace vague error messages with actionable guidance
 
 ---
@@ -227,7 +234,7 @@ Turns out frustration has a trend line too.
 Before spending hours troubleshooting:
 
 - Check whether your tenant uses MCA or Microsoft 365 Commerce.
-- Document every failed attempt and every error message.
+- Document every failed attempt and error message.
 - Contact Microsoft Support sooner rather than later.
 
 I wish I had.
@@ -238,10 +245,10 @@ I wish I had.
 
 | Tool | Purpose |
 |---|---|
-| Microsoft Excel | Data collection, cleaning, dashboard prototype |
-| SQL | Root-cause analysis and analytics |
-| Power BI | Interactive dashboards, DAX measures, and KPI development |
-| Tableau | Interactive dashboard recreation and data storytelling |
+| Microsoft Excel | Data collection, cleaning, and dashboard prototype |
+| SQL | Root-cause analysis and analytics queries |
+| Power BI | Interactive dashboard, DAX measures, and KPI development |
+| Tableau | Final interactive dashboard and public story walkthrough |
 | Python (Pandas & Matplotlib) | Supporting analysis and visualization |
 | Visual Studio Code | SQL, Python, and Markdown development |
 | GitHub | Portfolio presentation and project hosting |
@@ -254,17 +261,18 @@ I wish I had.
 - Data collection
 - Data cleaning
 - Exploratory data analysis
-- SQL
+- SQL querying
 - Window functions
+- KPI development
+- DAX measures
 - Dashboard design
-- DAX
-- Tableau
-- Power BI
-- Excel
-- Data storytelling
+- Tableau storytelling
+- Power BI reporting
+- Excel prototyping
 - Root-cause analysis
 - Business process analysis
 - Technical documentation
+- Data storytelling
 - Problem solving
 
 ---
@@ -272,13 +280,32 @@ I wish I had.
 ## 📁 Repository Structure
 
 ```text
-README.md
-data/
-images/
-powerbi/
-reports/
-sql/
-tableau/
+the-licensing-labyrinth/
+│
+├── README.md
+│
+├── data/
+│   └── the_licensing_labyrinth.xlsx
+│
+├── images/
+│   ├── tableau_dashboard_final.png
+│   ├── tableau_story_final.png
+│   ├── The_Licensing_Labyrinth_Dashboard.png
+│   ├── The_Licensing_Labyrinth_Excel_Shot.png
+│   └── licensing_labyrinth_journey_flowchart.png
+│
+├── powerbi/
+│   └── The_Licensing_Labyrinth_Dashboard.pbix
+│
+├── reports/
+│   └── The_Licensing_Labyrinth_Portfolio.pdf
+│
+├── sql/
+│   ├── LicensingLabyrinth_Analytics.sql
+│   └── LicensingLabyrinth_Analytics_2.sql
+│
+└── tableau/
+    └── Licensing_Labyrinth_Tableau_Final.twbx
 ```
 
 ---
@@ -302,6 +329,27 @@ If I can take a frustrating real-world problem and turn it into something measur
 
 ---
 
+## 🧠 Lessons Learned
+
+This project reminded me that data analytics is not just about charts.
+
+It's about noticing when something is broken, collecting evidence, finding patterns, and explaining the issue clearly enough that someone else can understand it.
+
+The tools matter, but the thinking matters more.
+
+---
+
+## 👤 About the Author
+
+**Ruben Santana**  
+**RLS//DATA**
+
+Aspiring data analyst building real-world portfolio projects with Excel, SQL, Power BI, Tableau, and data storytelling.
+
+> *Learning by building — one project at a time.*
+
+---
+
 ## Disclaimer
 
 This is an independent portfolio project created for educational and demonstration purposes.
@@ -317,6 +365,5 @@ This project is not affiliated with or endorsed by Microsoft.
 ## Contact
 
 **Ruben Santana**  
-**RLS//DATA**
-
+**RLS//DATA**  
 *Turning real-world problems into data-driven solutions.*
