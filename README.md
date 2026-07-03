@@ -11,6 +11,8 @@
 > "I just wanted to buy a Power BI license.  
 > That's it."
 
+![Somewhere in the Licensing Labyrinth](images/licensing_labyrinth_maze_scene.png)
+
 ---
 
 ## 📊 Final Tableau Dashboard
@@ -67,6 +69,8 @@ Every attempt ended with some version of **"Not eligible"** with no real explana
 It turns out the actual problem wasn't permissions or basic licensing. It was a hidden billing mismatch between **MCA (Microsoft Customer Agreement)** and **Microsoft 365 Commerce**.
 
 Nothing in the Microsoft Admin Center made that obvious.
+
+![Same key, two different doors](images/two_billing_doors_scene.png)
 
 I didn't discover it by reading documentation.
 
@@ -216,6 +220,8 @@ My frustration peaked at **10/10** right before giving up and contacting support
 Once the billing conversion finally began, it dropped to **7/10**.
 
 Turns out frustration has a trend line too.
+
+![The call that finally worked](images/support_escalation_relief_scene.png)
 
 ---
 
