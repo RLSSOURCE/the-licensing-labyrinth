@@ -1,12 +1,46 @@
-# The Licensing Labyrinth
+# 🏛️ The Licensing Labyrinth
 
-### By Ruben Santana — RLS//DATA
+### RLS//DATA | Ruben Santana
 
-> *"Where data meets bureaucracy — and only one survives."*
+*A real-world data analytics case study built with Excel, SQL, Power BI, and Tableau.*
+
+> "I just wanted to buy a Power BI license."
+>
+> "That's it."
 
 ---
 
-# 📖 What This Actually Is
+## 🚀 Explore the Project
+
+🌐 **Live Interactive Tableau Dashboard**  
+https://public.tableau.com/app/profile/ruben.santana4478/viz/TheLicensingLabyrinth-MicrosoftLicensingCaseStudy/Story-LicensingJourney
+
+📄 **Portfolio Report:** `reports/The_Licensing_Labyrinth_Portfolio.pdf`  
+🗄 **SQL Scripts:** `sql/LicensingLabyrinth_Analytics.sql`  
+📊 **Power BI File:** `powerbi/The_Licensing_Labyrinth_Dashboard.pbix`  
+📈 **Tableau Workbook:** `tableau/Licensing_Labyrinth_Tableau_Final.twbx`
+
+---
+
+## 📊 Dashboard Preview
+
+![The Licensing Labyrinth Dashboard](images/The_Licensing_Labyrinth_Dashboard.png)
+
+---
+
+## 🚀 Project Highlights
+
+- ✔ Real-world business problem
+- ✔ Excel → SQL → Power BI → Tableau workflow
+- ✔ Interactive dashboards
+- ✔ Root-cause analysis
+- ✔ Data storytelling
+- ✔ Professional project documentation
+- ✔ Cross-platform analytics case study
+
+---
+
+## 📖 What This Actually Is
 
 I just wanted to buy a Power BI license.
 
@@ -26,7 +60,7 @@ I had everything Microsoft said I needed:
 
 Every attempt ended with some variation of **"Not eligible"** without any explanation.
 
-It turns out the real problem wasn't permissions or licensing at all—it was a hidden billing mismatch between **MCA (Microsoft Customer Agreement)** and **Microsoft 365 Commerce**.
+It turns out the real problem wasn't permissions or licensing at all. It was a hidden billing mismatch between **MCA (Microsoft Customer Agreement)** and **Microsoft 365 Commerce**.
 
 Nothing in the Microsoft Admin Center tells you this.
 
@@ -36,15 +70,15 @@ I discovered it after **24 licensing attempts**, **7 support escalations**, and 
 
 Instead of leaving it as a frustrating experience, I treated it like a data analytics project.
 
-I logged every attempt, every error message, every minute lost, and every support interaction. Then I analyzed it with SQL, built KPI measures in Power BI using DAX, and even created an Excel dashboard prototype before rebuilding everything in Tableau.
+I logged every attempt, every error message, every minute lost, and every support interaction. Then I analyzed it with SQL, built KPI measures in Power BI using DAX, created an Excel dashboard prototype, and rebuilt the project again in Tableau.
 
 This isn't a hypothetical dataset.
 
-It's a real problem that happened to me, turned into a structured case study.
+It's a real problem that happened to me, turned into a structured analytics case study.
 
 ---
 
-# 🎯 The Problem (In Plain English)
+## 🎯 The Problem
 
 Despite meeting every documented prerequisite, I couldn't purchase Microsoft's enterprise add-ons.
 
@@ -53,18 +87,18 @@ The actual blocker was a billing mismatch between:
 - MCA Billing
 - Microsoft 365 Commerce Billing
 
-The Microsoft Admin Center never explains this.
+The Microsoft Admin Center never explained this.
 
-There isn't a self-service fix.
+There wasn't a self-service fix.
 
-The only resolution was having Microsoft Support manually convert my billing account.
+The only resolution was having Microsoft Support manually convert the billing account.
 
 ---
 
-# 📊 By the Numbers
+## 📊 By the Numbers
 
 | Metric | Value |
-|-----------------------------|----------------|
+|---|---:|
 | Total Licensing Attempts | 24 |
 | Failed Attempts | 20 (83%) |
 | Total Time Lost | 393 minutes (6.55 hrs) |
@@ -77,7 +111,7 @@ The only resolution was having Microsoft Support manually convert my billing acc
 
 ---
 
-# 🛠 What I Built
+## 🛠 What I Built
 
 ### Structured Data Collection
 
@@ -86,10 +120,10 @@ I logged every licensing attempt, including:
 - Product
 - Category
 - Result
-- Error Message
-- Billing Account
-- Time Lost
-- Support Contacted
+- Error message
+- Billing account
+- Time lost
+- Whether support was contacted
 
 ### SQL Analysis
 
@@ -109,88 +143,76 @@ Built an initial dashboard prototype featuring:
 
 - KPI cards
 - Charts
-- Pivot analysis
+- Pivot-style analysis
 - Formula-driven metrics
 
 ### Power BI Dashboard
 
 Created an interactive dashboard featuring:
 
-- 6 KPI Cards
-- 4 Interactive Charts
-- 4 Dynamic Slicers
-- DAX Measures
+- 6 KPI cards
+- 4 interactive charts
+- 4 dynamic slicers
+- DAX measures
 - Cross-filtering
 
 ### Tableau Dashboard
 
-Recreated the project in Tableau to demonstrate platform versatility while designing an interactive dashboard and guided analytics story.
-
-### Customer Journey Analysis
-
-I even tracked my own frustration across each step of the process (1–10).
-
-It sounds funny...
-
-…but it became another measurable variable that helped tell the complete story.
+Recreated the project in Tableau to demonstrate platform versatility and build an interactive visual story around the same dataset.
 
 ---
 
-# 🔍 What I Found
+## 📈 Power BI Dashboard
+
+![Power BI Dashboard](images/The_Licensing_Labyrinth_Dashboard.png)
+
+---
+
+## 🗺 Licensing Journey Flowchart
+
+![Licensing Journey Flowchart](images/licensing_labyrinth_journey_flowchart.png)
+
+---
+
+## 📊 Excel Prototype
+
+![Excel Dashboard Prototype](images/The_Licensing_Labyrinth_Excel_Shot.png)
+
+---
+
+## 🔍 Key Findings
 
 ### This wasn't user error.
 
 I met every documented Microsoft requirement and still failed **83%** of the time.
 
----
-
 ### MCA billing accounts block enterprise add-ons.
 
-Power BI Premium Per User
-
-Copilot
-
-Teams Premium
-
-Microsoft Fabric
-
-...all became unavailable simply because of the billing system—not because of licensing eligibility.
-
----
+Power BI Premium Per User, Copilot, Teams Premium, and Microsoft Fabric all became unavailable because of the billing system, not because of licensing eligibility.
 
 ### The Admin Center doesn't explain itself.
 
-"Not eligible."
+"Not eligible" is not an explanation.
 
-That's the message.
-
-No reason.
-
-No guidance.
-
-No indication that billing is the real issue.
-
----
+There was no clear reason, no useful guidance, and no indication that billing was the real issue.
 
 ### Microsoft Support became the only path forward.
 
 Seven out of twenty-four attempts ended in support escalation.
 
-The final solution required Microsoft to manually convert my billing account.
-
----
+The final solution required Microsoft to manually convert the billing account.
 
 ### Frustration followed the data.
 
-My frustration peaked at **10/10** immediately before giving up and contacting support.
+My frustration peaked at **10/10** right before giving up and contacting support.
 
-Once the billing conversion finally began, it dropped to **7/10**.
+Once the billing conversion started, it dropped to **7/10**.
 
 Turns out frustration has a trend line too.
 
 ---
 
-# 💡 If I Were Telling Microsoft What to Fix
+## 💡 If I Were Telling Microsoft What to Fix
 
 - Unify MCA and Microsoft 365 Commerce billing
 - Explain *why* purchases fail
@@ -200,7 +222,7 @@ Turns out frustration has a trend line too.
 
 ---
 
-# 👍 If You're Running Into This Yourself
+## 👍 If You're Running Into This Yourself
 
 Before spending hours troubleshooting:
 
@@ -212,40 +234,56 @@ I wish I had.
 
 ---
 
-# ⚙️ Tools Used
+## ⚙️ Tools Used
 
 | Tool | Purpose |
-|----------------|----------------------------------------------|
+|---|---|
 | Microsoft Excel | Data collection, cleaning, dashboard prototype |
 | SQL | Root-cause analysis and analytics |
-| Power BI | Interactive dashboards and DAX measures |
-| Tableau | Interactive dashboard recreation and storytelling |
+| Power BI | Interactive dashboards, DAX measures, and KPI development |
+| Tableau | Interactive dashboard recreation and data storytelling |
 | Python (Pandas & Matplotlib) | Supporting analysis and visualization |
+| Visual Studio Code | SQL, Python, and Markdown development |
+| GitHub | Portfolio presentation and project hosting |
 | AI Assistance | Research, brainstorming, documentation, and development support |
-| GitHub | Portfolio presentation and version control |
 
 ---
 
-# 🎓 Skills Demonstrated
+## 🎓 Skills Demonstrated
 
-- Data Cleaning
-- Data Collection
-- Exploratory Data Analysis
+- Data collection
+- Data cleaning
+- Exploratory data analysis
 - SQL
-- Window Functions
-- Dashboard Design
+- Window functions
+- Dashboard design
 - DAX
 - Tableau
 - Power BI
 - Excel
-- Data Storytelling
-- Root Cause Analysis
-- Business Process Analysis
-- Technical Documentation
+- Data storytelling
+- Root-cause analysis
+- Business process analysis
+- Technical documentation
+- Problem solving
 
 ---
 
-# 📌 Why This Is in My Portfolio
+## 📁 Repository Structure
+
+```text
+README.md
+data/
+images/
+powerbi/
+reports/
+sql/
+tableau/
+```
+
+---
+
+## 📌 Why This Is in My Portfolio
 
 Because it's real.
 
@@ -278,8 +316,7 @@ This project is not affiliated with or endorsed by Microsoft.
 
 ## Contact
 
-**Ruben Santana**
-
+**Ruben Santana**  
 **RLS//DATA**
 
 *Turning real-world problems into data-driven solutions.*
